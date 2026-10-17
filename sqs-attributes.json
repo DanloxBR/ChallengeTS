@@ -1,0 +1,6 @@
+{
+    "QueueUrl":  "http://localhost:4566/000000000000/wager-transactions.fifo",
+    "Attributes":  {
+                       "RedrivePolicy":  "{\"deadLetterTargetArn\":\"arn:aws:sqs:us-east-1:000000000000:wager-transactions-dlq.fifo\",\"maxReceiveCount\":\"5\"}"
+                   }
+}
